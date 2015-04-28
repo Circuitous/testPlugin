@@ -25,6 +25,6 @@ public class TestPlugin extends JavaPlugin implements Listener {
 
     @EventHandler(priority = EventPriority.NORMAL)
     public void loginMessage(PlayerLoginEvent event){
-        getLogger().log(Level.INFO, "Player " + event.getPlayer().getName() + " is joining.");
+        getLogger().log(Level.INFO, "Player " + event.getPlayer().getName() + " has joined our struggle.");
     }
 }
