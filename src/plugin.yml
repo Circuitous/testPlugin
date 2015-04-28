@@ -1,0 +1,5 @@
+name: TestPlugin
+version: 0.01a
+description: Plugin for testing purposes
+author: Const
+main: testTube.TestPlugin
